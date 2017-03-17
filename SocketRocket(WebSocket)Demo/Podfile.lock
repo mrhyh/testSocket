@@ -1,0 +1,15 @@
+PODS:
+  - CocoaAsyncSocket (7.6.0)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 59d243429b837e2aff08bdffaccdc3b0b72e8efe
+
+COCOAPODS: 1.2.0
