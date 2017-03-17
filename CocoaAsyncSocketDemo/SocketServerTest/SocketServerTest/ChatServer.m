@@ -40,8 +40,6 @@
 #pragma mark 创建服务器
 -(void)startConnection{
     
-    
-    
     //2打开监听端口
     NSError *error = nil;
     [_serverSocket acceptOnPort:54321 error:&error];
@@ -55,6 +53,7 @@
     [[NSRunLoop mainRunLoop] run];
 }
 
+#pragma Delegate
 #pragma mark 有客户端建立连接  sock 服务端  newSocket 客户端的
 -(void)socket:(GCDAsyncSocket *)sock didAcceptNewSocket:(GCDAsyncSocket *)newSocket{
     NSLog(@"%s",__func__);
@@ -94,4 +93,5 @@
     // 在真正的服务器中还有很多其他的业务    消息保存到数据库中 等
     NSLog(@"%s",__func__);
 }
+
 @end
